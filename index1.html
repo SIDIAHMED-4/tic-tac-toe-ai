@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe | Start</title>
+  <style>
+    body {
+      background-color: aliceblue;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      width: 130%;
+      height: 130%;
+      background: linear-gradient(rgba(101, 127, 139, 0.85), rgba(255,255,255,0.85)), url(./pattern.jpg);
+      background-size: cover;
+      z-index: -1;
+    }
+
+    h1 {
+      color: #f704ae;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: black;
+    }
+
+    button {
+      background-color: blue;
+      color: #68ebf8;
+      padding: 1.6rem;
+      border-radius: 1rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease; /* انتقال ناعم عند التغير */
+    }
+    /* عند مرور الماوس */
+button:hover {
+  background-color: #0055ff;
+  color: white;
+  transform: scale(1.05); /* يكبر الزر قليلاً */
+}
+
+/* عند الضغط */
+button:active {
+  background-color: #003bb3;
+  transform: scale(0.95); /* يصغر الزر قليلاً */
+}
+  </style>
+</head>
+<body>
+  <h1>Welcome to Tic-Tac-Toe!</h1>
+  <p>Are you ready to challenge the AI?</p>
+  <button id="start">Start Game</button>
+
+  <script>
+    const buttonElement = document.querySelector("#start");
+
+    buttonElement.addEventListener("click", () => {
+      window.location.href = "index2.html"; 
+    });
+  </script>
+</body>
+</html>
