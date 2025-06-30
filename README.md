@@ -30,8 +30,8 @@ Can you beat it?
 
 ## 🌐 Live Demo
 
-> 🔗 [Play the Game](https://your-username.github.io/tic-tac-toe-ai)  
-> *(Replace with your actual GitHub Pages link)*
+> 🔗 [Play the Game]([https://sidiahmed-4.github.io/tic-tac-toe-ai/])  
+
 
 ---
 
