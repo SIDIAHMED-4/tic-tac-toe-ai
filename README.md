@@ -28,9 +28,7 @@ Can you beat it?
 
 ---
 
-## 🌐 Live Demo
-
-> 🔗 [Play the Game]([https://sidiahmed-4.github.io/tic-tac-toe-ai/])  
+## 🌐 [Live Demo]([https://sidiahmed-4.github.io/tic-tac-toe-ai/])  
 
 
 ---
