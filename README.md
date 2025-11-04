@@ -5,6 +5,9 @@ Challenge a basic AI opponent that tries to win or block your moves.
 Can you beat it?
 
 ---
+## 📸 Screenshots
+
+![App Screenshot](./img/tic-tac-toe-ai.png)
 
 ## 🚀 Features
 
